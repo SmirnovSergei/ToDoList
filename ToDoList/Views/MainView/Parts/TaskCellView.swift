@@ -13,7 +13,7 @@ struct TaskCellView: View {
 	var body: some View {
 		HStack(alignment: .top) {
 			Button {
-				//
+				// FIXME: - Создать менеджер с методом выполнения задачи
 			} label: {
 				Image(systemName: task.completed ? "checkmark.circle" : "circle")
 					.resizable()
